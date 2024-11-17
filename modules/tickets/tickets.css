@@ -1,0 +1,117 @@
+.no_tickets {
+    padding: 12px;
+    background-color: #e75630;
+    font-weight: bold;
+    text-align: center;
+    border-radius: 3px;
+}
+a[href="?m=tickets&p=submitticket"] {
+    padding: 4px 8px;
+    border-radius: 2px;
+    cursor: pointer;
+    margin: 0 2px;
+    color: #fff !important;
+    background-color: #37b799;
+    border-color: #37b799;
+    border: 2px solid #37b799;
+    font-weight: normal !important;
+}
+a[href="?m=tickets&p=submitticket"]:hover {
+ border:2px solid #248e75;
+ background:#248e75!important;
+ color:#eee;
+ border-radius:2px
+}
+a[href="?m=tickets&p=submitticket"]:active {
+ background-color:#204d74!important;
+ border-color:#204d74
+}
+a[href="?m=tickets&p=submitticket"]:before {
+ content: "\f055";
+font: normal normal normal 16px/1 FontAwesome;
+    padding-right: 4px;
+}
+.ticketOptionLinks {
+	padding: 4px;
+	margin-bottom: 15px;
+}
+
+.ticketListTable {
+    font-family: 'Open Sans',sans-serif;
+    background-color: #0f1a26;
+    margin: 10px 0 15px;
+    width: 100%;
+    text-align: left;
+    border-collapse: collapse;
+    border-spacing: 1px;
+    border-left: 1px solid #0f1a26;
+    border-right: 1px solid #0f1a26;
+}
+
+.ticketListTable th {
+    background-color: #0f1a26;
+    font-size: 10pt;
+    padding: 10px 5px;
+}
+.ticketListTable tr {
+    background-color: #162535;
+    border-bottom: 1px solid rgba(15,26,38,0.6);
+}
+.ticketListTable tr:hover {
+    background-color: #111f2d;
+}
+.ticketListTable td {
+    color: #fff;
+    padding: 8px 6px;
+    vertical-align: middle;
+}
+.ticket_customer_response td:nth-child(2) {
+    background-color: #f39c12;
+    display: inline;
+    padding: .2em .7em .3em;
+    font-size: .8em;
+    font-weight: 700;
+    line-height: 3.3;
+    color: #fff;
+    text-align: center;
+    border-radius: .25em;
+    position: relative;
+}
+
+.ticket_closed td:nth-child(2) {
+    background-color: #888;
+    display: inline;
+    padding: .2em .7em .3em;
+    font-size: .8em;
+    font-weight: 700;
+    line-height: 3.3;
+    color: #fff;
+    text-align: center;
+    border-radius: .25em;
+    position: relative;
+}
+.ticket_open td:nth-child(2) {
+    background-color: #3c8dbc;
+    display: inline;
+    padding: .2em .7em .3em;
+    font-size: .8em;
+    font-weight: 700;
+    line-height: 3.3;
+    color: #fff;
+    text-align: center;
+    border-radius: .25em;
+    position: relative;
+}
+.ticket_admin_response td:nth-child(2) {
+    background-color: #00a65a;
+        display: inline;
+    padding: .2em .7em .3em;
+    font-size: .8em;
+    font-weight: 700;
+    line-height: 3.3;
+    color: #fff;
+    text-align: center;
+    border-radius: .25em;
+    position: relative;
+}
+.ticketPagination {}
